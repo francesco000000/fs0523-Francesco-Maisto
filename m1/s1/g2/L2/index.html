@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Primi passi operativi per creare un modello di pagina HTML per un post.Scropri come iniziare in modo facile">
+    <title>Sviluppo di unsa pagina web - Blog Epicode</title>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img/logo.svg" alt="logo sito">
+            <h1>Epicode - Il blob dei develooper</h1>
+            <ol>
+                <li>Home</li>
+                <li>Articoli</li>
+                <li>Lavora con noi</li>
+            </ol>
+        </nav>
+    </header>    
+    <main>
+            <article>
+                <h1>Come creare un template per i post</h1>
+                <cite>di Mario Rossi - pubblicato il 25-10-2020</cite>
+                <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti
+                    comuni da applicare a tutte le pagine.
+                </p>
+                <h5>Le varie aree saranno quindi suddivise in :</h5>
+                <ul>
+                    <li>Contenuto di intestazione dei tag &lt;head&gt;</li>
+                    <li>Contenuti centrali variabili dei tag &lt;main&gt; (corpo principale)</li>
+                    <li>Contenuti di fine pagina comuni, da inserire nel tag &lt;footer&gt;</li>
+                </ul>
+                <h2>Formattazione del codice</h2>
+                <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le partida selezionare con css.
+                    Perciò i passi saranno:
+                </p>
+                <ol>
+                    <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
+                    <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+                    <li>Applicare gli stili CSS</li>
+                </ol>
+                <p>
+                    L'applicazione di stili CSS è cresciuta negli ultimi anni fino a raggiungere la diffusione totale.
+                </p>
+                <div>
+                    <caption>Diffusione del Css</caption>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Anno</th>
+                                <th>% di utilizzo</th>
+                                <th>Supporto browers</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2000</td>
+                                <td>20%</td>
+                                <td>17%</td>
+                            </tr>
+                            <tr>
+                                <td>2002</td>
+                                <td>35%</td>
+                                <td>22%</td>
+                            </tr>
+                            <tr>
+                                <td>2004</td>
+                                <td>45%</td>
+                                <td>42%</td>
+                            </tr>
+                            <tr>
+                                <td>2008</td>
+                                <td>80%</td>
+                                <td>51%</td>
+                            </tr>
+                            <tr>
+                                <td>2012</td>
+                                <td>100%</td>
+                                <td>76%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p>Un test esterno di validazione potrà essere fatto tramite il tool online <a href="#">-Link Esterno-</a>
+                dedicato allo scopo.Una volta ottimizato il tutto,avremo raggiunto il nostro obbiettivo ed essere stati dei veri developers come loro.</p>
+                <div>
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/aBSZVeBRvDY?si=LB_DOApZRJkgdHr7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </article>
+            <section>
+                <form>
+
+                     <fieldset>
+                        Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter
+                    
+                        <label for="email"> Inserisci email</label>
+                        <input type="email" id="email" required placeholder="inserisci email">
+                        <label for="invio">Iscriviti</label>
+                        <input type="submit" id="invio" value="invio">
+                     </fieldset>
+                </form>
+            </section>
+            <aside>
+                <div>
+                    <h6>Articoli correlati</h6>
+                    <h6>Validare il codice Html</h6>
+                    <h6>Categoria: devlop</h6>
+                    <h6>Data:18-9-2020</h6>
+                </div>
+                <div>
+                    <h6>Corregere la sintassi</h6>
+                    <h6>Categoria devlop</h6>
+                    <h6>Data:16-9-2020</h6>
+                    
+                </div>
+                <div>
+                    <h6>Meno Kb nella pagina</h6>
+                    <h6>Categoria ottimizzazione</h6>
+                    <h6>Data:30-9-2020</h6>
+                    
+                </div>
+            </aside>
+            
+            
+    </main> 
+    <hr>       
+    
+    <footer>
+        <p>Blog Epicode 2023</p>
+        <p>Testata online di Mario Rossi , registrata con prot.n.213/2018- via Luigi Elnaudi 2- Milano P.IV 00112233
+            info@epicode.school<a href="#">-Link Email-</a>
+        </p>
+    </footer>   
+</body>
+</html>
