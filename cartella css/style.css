@@ -1,0 +1,95 @@
+.logo{
+    text-align: center;
+    
+}
+.logo img{
+    width: 150px;
+}
+.nav-bar{
+    text-align: center;
+    height: 30px;
+    background-color:papayawhip;
+    border-top-style:solid;
+    border-top-color:rgb(250, 228, 192);
+    padding-bottom: 8px;
+    
+    
+    
+}
+.nav-bar p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8rem;
+}
+.nav-bar span{
+    color: cadetblue;
+    font-weight: bold;
+}
+main{
+    
+    margin:auto;
+    width: 800px;
+    
+
+    
+     
+   
+}
+.img{
+    width: 80%;
+    text-align: center;
+}
+.img h1{
+    text-align: center;
+}
+.img p{
+    color: rgb(83, 80, 80);
+}
+.img img{
+    width: 650px;
+    border-radius: 10px;
+    
+}
+.img div{
+    text-align: center;
+   
+}
+.img cite{
+    display: block;
+    text-align: center;
+    color: grey;
+}
+
+
+.link-recipebook h5{
+    color: rgb(131, 32, 32);
+    
+    
+   
+}
+
+.link-recipebook{
+    height: 30px;
+    font-size: 0.8rem;
+    border-left: solid papayawhip;
+    padding-left: 10px;
+}
+.recipe{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+    width: 80%;
+    color: rgb(83, 80, 80);
+}
+
+.recipe div{
+    border-bottom-style:solid  ;
+    color: cadetblue;
+    opacity: 0.8;
+}
+.recipe div h4{
+    color:black ;
+}
+footer{
+    width: 800px;
+    margin: auto;
+    color: rgb(83, 80, 80);
+}
