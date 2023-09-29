@@ -1,0 +1,147 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap');
+
+  body{
+    font-family: 'Open Sans', sans-serif;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+
+  }
+  h1,h2,h3,h4,h5,h6 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+  }
+  #header{
+    background-color: black;
+  }
+  .logo img{
+    width: 100px;
+    padding: 5px;
+  }
+  .sezione1{
+    text-align: center;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    padding: 45px;
+    
+}
+.sezione1 h2{
+    font-size: 0.8rem;
+}
+
+.sezione1 p{
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+.sezione1 a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.6rem;
+    color: white;
+    background-color: #f04c2f;
+    text-decoration: none;
+    padding: 10px ;
+    border-radius: 5px;
+}
+.sezione2{
+    background-color: white;
+    display: flex;
+    padding: 50px;
+    
+   
+}
+ .foto1 img{
+    border-radius: 100%;
+    width: 160px;
+    margin-right: 20px;
+ } 
+ .testo1 ul{
+    font-size: 0.5rem;
+    list-style-type: none;
+    line-height: 1.8;
+    padding: 5px;
+ }
+ .testo1 h3{
+    line-height: 2;
+ }
+ .sezione3{
+    background-color: #f04c2f;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 0.6rem;
+    padding: 30px;
+ }
+ .sezione3 h2{
+    color: white;
+ }
+
+ .autore{
+    font-size: 0.5rem;
+ }
+ .sezione3 cite{
+    font-size: 0.3rem;
+ }
+ aside{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+
+ }
+ article{
+    border: 1px solid #dee1e3;
+    margin: 5px;
+    
+ }
+ article img{
+    width: 130px;
+    margin: 10px;
+    margin-bottom: 0px;
+    
+    
+ }
+ article h5, p{
+    font-size: 0.5rem;
+    text-align: center;
+    
+    
+ }
+ #footer{
+    background-color:#25a2c3 ;
+    color: white;
+    padding: 20px;
+    
+  
+ }
+ .contatti h2{
+    color: white;
+    font-size: 1.8rem;
+   
+ }
+ .contatti{
+    
+    width: 40%;
+    margin: 0 auto;
+    font-size: 0.6rem;
+   
+ }
+ .contatti ol {
+      list-style: none;
+     padding: 8px;
+    
+     
+     
+
+      
+ }
+ .contatti a{
+    color: #dee1e3;
+    padding: 5px;
+ }
+ .contatti p{
+    font-size: 0.6rem;
+    text-align: center;
+ }
+ 
+ 
