@@ -26,19 +26,19 @@ let oggettoPersona = {
 */
 
 const name = "Francesco";
-
+console.log(name);
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
 let somma = 12 + 20;
-
+console.log(somma);
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
 let x = 12;
-
+console.log(x);
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
@@ -51,7 +51,7 @@ let x = 12;
 */
 
 let sottrazione = 4 - x;
-
+console.log(sottrazione);
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
  Verifica che name1 sia diversa da name2 (suggerimento: è la stessa cosa di verificare che la loro uguaglianza sia falsa).
@@ -60,7 +60,7 @@ let sottrazione = 4 - x;
 
 let name1 = "john";
 let name2 = "John";
-name1 != name2;
-let name1Minuscolo = name1.toLowerCase();
-let name2Minuscolo = name2.toLowerCase();
-name1Minuscolo==name2Minuscolo;
+
+console.log(name1 != name2);
+
+console.log(name1.toLowerCase()==name2.toLowerCase());
