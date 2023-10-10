@@ -213,12 +213,21 @@ const movies = [
 /* ESERCIZIO 10
   Scrivi una funzione per ottenere il numero di film contenuti nell'array fornito.
 */
- 
 
+totFilm = (array) =>{
+  let totale = array.reduce((elemento) => {
+  somma = somma + elemento.Title;})
+  return totale;
+}
+console.log(totFilm(movies));
 /* ESERCIZIO 11 (map)
   Scrivi una funzione per creare un array con solamente i titoli dei film contenuti nell'array fornito.
 */
-
+titolifilm= (array) =>{
+  let totale = array.map((elemento)=> elemento.Title);
+  return totale;
+}
+console.log(titolifilm(movies));
 /* ESERCIZIO 12 (filter)
   Scrivi una funzione per ottenere dall'array fornito solamente i film usciti nel millennio corrente.
 */
