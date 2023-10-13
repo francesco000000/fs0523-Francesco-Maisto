@@ -7,7 +7,7 @@ for (let i = 1; i <=76; i++){
     numero.classList.add("numero")
     numero.innerText= i
     tabellone.append(numero)
-    
+  
 }
 
 estrazione.addEventListener("click",function() {
