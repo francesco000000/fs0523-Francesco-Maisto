@@ -79,30 +79,44 @@ footer{
 
 /* Desktop */
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:1200px) {
    
    .container{
-    max-width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
     
    }
  
    header{
     margin: 0 auto;
     margin-bottom: 40px;
-     max-width:  80%;
+     max-width:  100%;
      display: flex;
+    
      
        
    } 
-   header nav  {
+   .box-logp-p{
+    width: 40%;
+    display: flex;
+   }
+
+   .box-logp-p p{
     display: inline-block;
+    margin-bottom: 0px;
+   }
+   nav{
+    width: 70%;
+    margin-right: 0 auto;
+    text-align: right;
+
+   }
+
    
  
-   header nav li {
-    display: inline;
-}
-main{
-    max-width: 80%;
+
+ main{
+    max-width: 100%;
     margin: 0 auto;
     
 }
@@ -120,16 +134,27 @@ article ol {
 }
 table{
     margin: 0 auto;
+    width: 70%;
 }
 .dopo-tabella{
     margin-top: 60px;
 }
+.iframe-section{
+    display: flex;
+    width:  100% / 2 - 0,4rem
+}
+.box-aside{
+    display: flex;
+    align-content:stretch ;
+    width: calc(100% / 3-0,4rem);
+}
+
 
 footer{
-    max-width: 80%;
+    max-width: 100%;
     box-sizing: initial;
     font-size: 1.9rem;
     margin: 0 auto;
     margin-top: 20px;
 }
-}}
+}
