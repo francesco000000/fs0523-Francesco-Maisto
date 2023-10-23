@@ -3,8 +3,9 @@ let bottone = document.getElementById("add")
 let lista = document.getElementById("list")
 bottone.addEventListener("click",function  () {
     let li = document.createElement("li")
-   li.append(input.value)
-   lista.append(li)
+    li.innerText= input.value
+    lista.append(li)
+    input.value =  " "
    li.classList.add("task")
    let btnLi =document.createElement("button")
    btnLi.classList.add("task-btn")
