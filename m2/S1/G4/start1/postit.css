@@ -1,0 +1,46 @@
+:root {
+    --giallo: #fefece;
+    --verde: #ccfece;
+    --viola: #cacafa;
+}
+.lavagna{
+    height: 100vh;
+    background-color: rgb(111, 109, 109);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    align-items: center;
+}
+.post{
+   width: 300px;
+   height: 250px;
+   border: 1px solid black;
+   box-shadow: 2px 2px rgb(62, 60, 60); 
+   text-align: center;
+   font-size: 3rem;
+ 
+}
+.post1,.post5,.post7{
+   background-image:linear-gradient(var(--giallo) 0%, var(--giallo) 75%, #bdbda3 90%, #bdbda3 100%); ;
+}
+.post2,.post4,.post8{
+    background-image:linear-gradient(var(--verde) 0%, var(--verde) 75%, #a1b8a1 90%, #a1b8a1 100%);;
+}
+.post3,.post6{
+    background-image: linear-gradient(var(--viola) 0%, var(--viola) 75%, #8b8c9b 90%, #8b8c9b 100%);;
+}
+.post1,.post7,.post5{
+    transform: rotate(357deg);
+}
+.post2,.post4,.post8{
+    transform: rotate(4deg);
+}
+.post3,.post6{
+    transform: rotate(355deg);
+}
+.post:hover{
+    transform: rotate(0deg) scale(1.2,1.2);
+    position: relative;
+
+}
+

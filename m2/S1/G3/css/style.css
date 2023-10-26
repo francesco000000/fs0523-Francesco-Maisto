@@ -1,8 +1,7 @@
-.card{
-    height: 100%;
+
   
-}
-.img{
+
+.img-card{
    background-image: url(../imgs/honey.jpg);
    background-position: center;
    height: 400px;
