@@ -1,0 +1,245 @@
+/* HEADER */
+header{
+    background-color: #ffc017;
+    display: flex;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0px;
+   
+ 
+}
+.logo{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   
+}
+.cerchio{
+    background-color: black;
+    border-radius: 100%;
+    flex-basis:  5%;
+    height: 30px;
+    flex-grow: 0;
+}
+.cerchio2{
+    flex-basis:3% ;
+}
+.cerchio3{
+    flex-basis: 1%;
+}
+.nome-logo{
+    font-size: 2rem;
+    font-weight: bold;
+    flex-grow: 1;
+    margin-left: 4px;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    flex-basis: 50%;
+    padding: 20px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav ul li{
+    padding: 20px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav button{
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    flex-basis: 20%;
+   
+}
+
+           /* HERO */
+.hero{
+    background-color: #ffc017;
+    display: flex;
+    padding: 20px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.title h2{
+    font-size: 7rem;
+    font-weight: 500;
+}
+.title p {
+    font-size: 2.3rem;
+    color: rgb(62, 60, 60);
+}
+.title button{
+    color: white;
+    background-color: rgb(44, 42, 42);
+    border-radius: 25px;
+    width: 25%;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+.svg{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: end;
+    
+}
+.svg svg{
+    width: 100%;
+    height: 100%;
+}
+                    /* SECTION ARTICOLI PRINCIPALI */
+.articoli-principali{
+    
+    width: 80%;
+    margin: 0 auto;
+}
+.container-articoli-principali{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.treding{
+    display: flex;
+    margin-top: 10px;
+}
+                    .treding h3{
+    font-size: 1rem;
+    font-weight: 550;
+    color: rgb(33, 31, 31);
+    padding: 10px;
+}  
+article{
+    display: flex;
+    flex-basis: calc(100% / 3);
+   
+    
+    
+}
+.img-utente{
+    display: flex;
+   
+    
+}
+.img-utente img{
+    width: 8%;
+    margin-right: 3px;
+    
+}   
+article h4 a{
+    color: rgb(75, 70, 70);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2rem;
+}  
+.numero-art{
+    font-size: 2rem;
+    opacity: 0.1;
+}
+.utente h4{
+    margin-bottom:5px ;
+}   
+                         /* SEZIONE ARTICOLI           */
+  .articoli{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 180%;
+   
+  } 
+  .img-articolo img{
+    width: 200px;
+    padding: 10px;
+  } 
+  .articoli article{
+    margin: 15px;
+  } 
+  .articoli .utente{
+    margin-right: 10px;
+  }   
+  .conteiner-art-aside-footer{
+    display: flex;
+    margin-top: 80px;
+ 
+  } 
+                             /* Aside */
+  aside{
+    flex-basis: 20%;
+    display: flex;
+    position: sticky;
+    top: 200px;
+    flex-direction: column;
+  
+}   
+aside
+ul{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   aside ul li{
+    list-style-type: none;
+    padding: 15px;
+     
+   }
+   aside ul li a{
+    background-color: rgb(247, 245, 245);
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+   }
+   .green{
+    color: green;
+    background-color: white;
+   }
+   .green:hover{
+    color: black;
+   }
+   .h3{
+    font-weight: 800;
+    padding-left: 20px;
+   }
+                          /* Footer */
+    footer{
+        flex-basis: 20%;
+        display: flex;
+        position: sticky;
+        top: 400px; 
+        
+    
+    } 
+    footer
+ul{
+    display: flex;
+    flex-wrap: wrap;
+   } 
+    footer ul li{
+        list-style-type: none;
+        padding: 15px;
+         
+       } 
+       footer ul li a{
+      
+        color: rgb(125, 125, 125);
+        text-decoration: none;
+        
+       } 
+       @media  screen and (max-width: 700px) { 
+        .title h2{
+            font-size: 2rem;
+            font-weight: 500;
+        }
+       
+        } 
+     
+       
