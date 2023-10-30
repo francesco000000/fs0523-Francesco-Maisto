@@ -170,6 +170,8 @@ article h4 a{
   .conteiner-art-aside-footer{
     display: flex;
     margin-top: 80px;
+    
+  
  
   } 
                              /* Aside */
@@ -241,5 +243,13 @@ ul{
         }
        
         } 
-     
-       
+        @keyframes pippo {
+            0%   {transform:scaleY(1);}
+            50%  {transform: scaleY(0);}
+            100% {transform: scaleY(1);}
+          }
+       .svg svg{
+        animation-name: pippo;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+       }
