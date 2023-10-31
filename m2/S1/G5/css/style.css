@@ -248,8 +248,8 @@ ul{
             50%  {transform: scaleY(0);}
             100% {transform: scaleY(1);}
           }
-       .svg svg{
+       /* .svg svg{
         animation-name: pippo;
         animation-duration: 4s;
         animation-iteration-count: infinite;
-       }
+       } */
