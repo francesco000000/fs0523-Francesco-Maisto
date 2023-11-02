@@ -1,0 +1,30 @@
+@import "reset";
+@import "color";
+@import "font";
+@import "bottoni";
+@import "spaziature";
+@import "animazioni";
+@import "mixins";
+
+h1{
+    @include title-bg;
+}
+.nav-bar{
+  width: 100%;
+  .nav-logo{
+    width: 20%;
+  }
+.nav-menu{
+   display: flex;
+   .nav-li{
+    padding: 5px;
+    margin: 0 5px;
+    list-style-type: none;
+
+   }
+
+}
+}
+
+ 
+  
