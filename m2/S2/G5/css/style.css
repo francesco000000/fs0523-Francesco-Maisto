@@ -1,0 +1,68 @@
+.colore-sfondo{
+    background-color: #242323;
+}
+.color-my-container{
+    background-color: #100f0f;
+}
+.my-container{
+    width: 75%;
+    margin: 0 auto;
+    background-color: #100f0f;
+}
+
+.foto-profilo{
+    width: 5%;
+}
+.my-size{
+    font-size: 0.5rem;
+}
+.size-icon{
+    font-size: 0.7rem;
+    
+}
+.size-icon-arrow{
+    font-size: 0.4rem;
+   
+}
+
+.color-link{
+    color: rgb(203, 191, 191);
+}
+ .color-link:hover{
+    
+    color: white;
+}
+.size-copy{
+    font-size: 0.4rem;
+}
+.scale:hover{
+ transform: scale(1.2);
+}
+.my-footer-container {
+    width: 60%;
+    margin:0 auto;
+    background-color: #100f0f;
+}
+                            /* Page-profile */
+
+.profile-container{
+    width: 45%;
+  margin-left: 300px;
+} 
+.btn-profile:hover{
+   background-color: white;
+   color: black;
+   font-weight: bold;
+}
+.btn-w-40{
+    width: 40%;
+}
+                               /* Page-Accaunt */
+.my-container-account{
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+}  
+.size-account{
+    font-size: 0.8rem;
+}                       

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix-Profile</title>
+    <link rel="icon" type="image/x-icon" href="img/netflix_logo.png">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="colore-sfondo p-5 pb-0">
+  <div class="my-container">
+    <div class="container">
+        <div class="row">
+            <a href="index.html" class="col-2 ">
+                <img class="img-fluid " src="img/netflix_logo.png" alt="logo">
+            </a>
+        </div>
+    </div>
+    <div class="row p-4">
+        <div  class=" col-12 col-sm-12 col-md-12 col-lg-6 text-white display-4  fw-normal text-nowrap offset-lg-4" >
+            <p >Edit Profile</p>
+            <hr class="bg-secondary ">
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-2 offset-lg-4">
+            <img class="img-fluid" src="img/avatar.png" alt="">
+        </div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+            <input class="bg-secondary w-100 " type="text">
+            <p class="color-link mt-5">Lauguage</p>
+            <select class=" bg-black text-white size-icon    " name="genere" id="genere">
+                <option value="genere">English</option>
+                <option value="avventura">Italian</option>
+                <option value="fantasy">Spanish</option>
+              </select>
+              <hr class="bg-secondary text-white">
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-3 offset-lg-6">
+            <p class="color-link mt-1">Maturity Settings</p>
+            <input class="colore-sfondo w-75 mb-2  " type="text">
+            <p class="size-icon text-sm-nowrap text-white">Show titles of all maturity ratings for this profile</p>
+            <button type="button" class=" color-my-container border border-secondary text-secondary py-1 mb-1 border border border-secondary size-icon w-25 ">EDIT</button>
+              <hr class="bg-secondary text-white ">
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 offset-lg-6 mb-4 ">
+            
+            <p class="color-link mt-1">Autoplay controls</p>
+            <div >
+            <input class="" type="checkbox" id="autoplay1" name="autoplay1" value="autoplay">
+            <label class="text-white size-icon text-sm-nowrap  " for="vehicle2"> Autoplay next episode in a series on all devices</label>
+            </div>
+            <div >
+            <input class="" type="checkbox" id="autoplay2" name="autoplay2" value="autoplay">
+            <label class="text-white size-icon text-sm-nowrap " for="vehicle3"> Autoplay previews while browsing on all device</label>
+            <hr class="bg-secondary text-white   ">
+        </div>
+    </div>
+    <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-lg-4 d-flex ">
+        <button type="button" class=" color-my-container border border-secondary text-secondary py-1 mb-1  border border border-secondary w-25  btn-profile ">SAVE</button>
+        <button type="button" class=" color-my-container border border-secondary text-secondary py-1 mb-1 border border border-secondary  w-25 btn-profile ">CANCEL</button>
+        <button type="button" class=" color-my-container border border-secondary text-secondary py-1 mb-1 border border border-secondary  btn-w-40 btn-profile">DELETE PROFILE</button>
+       
+        </div>
+        
+
+    </div>
+  </div>  
+</body>
+</html>
