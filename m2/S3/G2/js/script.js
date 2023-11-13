@@ -12,15 +12,20 @@ salva.addEventListener("click",function () {
 })
 
 rimuovi.addEventListener("clck",function(){
-    lista.lastChild.remove()
+   
     localStorage.removeItem('utente');
     
 })
-let arr=[];
+
+
+
+
 const element = document.getElementById("demo");
+let t = sessionStorage.getItem('time')
+element.innerHTML= t
 setInterval(function() {
-    arr.push(element.innerHTML++)
-    sessionStorage.setItem('time',JSON.stringify(arr));
+
+    sessionStorage.setItem('time',element.innerHTML++);
  
         }
         , 1000);
