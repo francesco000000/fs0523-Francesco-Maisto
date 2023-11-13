@@ -9,7 +9,8 @@ fetch('https://striveschool-api.herokuapp.com/api/product/'+ prodottoId, {
     })
     .then(res => res.json())
     .then(p => {
-
+        
+        
         let name = document.querySelector('#nome')
         let imageUrl = document.querySelector('#foto')
         let price =document.querySelector('#prezzo')

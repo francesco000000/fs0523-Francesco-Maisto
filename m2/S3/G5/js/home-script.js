@@ -12,9 +12,9 @@ headers:{
 .then(prodotti => {
 
     let target = document.querySelector('#target');
-
     prodotti.forEach(p => {
-
+        
+        
        
         let clone = getCardClone();
         
