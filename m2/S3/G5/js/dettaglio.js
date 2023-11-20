@@ -12,16 +12,16 @@ fetch('https://striveschool-api.herokuapp.com/api/product/'+ prodottoId, {
         
         
         let nome = document.querySelector('.nome')
-        let marca = document.querySelector("#brand")
+        let marca = document.querySelector('.marca')
        
         let prezzo =document.querySelector('.prezzo')
         let descrizione  =document.querySelector('.descrizione')
 
 
          nome.innerHTML = p.name
-         marca,innerHeight =  p.brand
+         marca.innerHTML =  p.brand
         
-         prezzo.innerHTML = p.price
+         prezzo.innerHTML = p.price+'£'
          descrizione.innerHTML  = p.description
 
 

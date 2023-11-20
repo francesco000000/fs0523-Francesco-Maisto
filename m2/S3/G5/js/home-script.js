@@ -30,10 +30,10 @@ headers:{
        
         img.src = p.imageUrl;
         title.innerText = p.name;
-        price.innerText = p.price;
+        price.innerText = p.price+'£';
         brand.innerText = p.brand;
         description.innerText = p.description;
-        dettagli.href = 'dettaglio.html?id='+p._id
+        dettagli.href = 'dettagli.html?id='+p._id
        
 
         addToCart.addEventListener('click',()=>{
