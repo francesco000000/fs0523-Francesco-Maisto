@@ -19,8 +19,15 @@ if (numGenerato==giocatore1) {
     
 
 
-let g1:HTMLElement|null = document.querySelector('#giocatore1')
-let g2:HTMLElement|null = document.querySelector('#giocatore2')
-let btn:HTMLElement|null  = document.querySelector('#btn')
-let span:HTMLElement|null  = document.querySelector('.numeroGenerato')
+let g1:HTMLInputElement|null = document.querySelector('#giocatore1')
+let g2:HTMLInputElement|null = document.querySelector('#giocatore2')
+let btn:HTMLButtonElement|null  = document.querySelector('#btn')
+let span:HTMLSpanElement|null  = document.querySelector('span')
 
+
+btn?.addEventListener('click',function() {
+let v = g1?.value
+ 
+
+   
+})
