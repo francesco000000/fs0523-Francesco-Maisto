@@ -1,7 +1,10 @@
-<button>Post non attivi</button>
-<button >Post attivi</button>
-<div>
-  <div *ngFor="let post of post; let i = index">
+<button
+>Post non attivi</button>
+<button
+(click)="showClass = !showClass" >Post attivi</button>
+<div [ngClass]="{show:showClass}">
+
+  <div *ngFor="let post of post; ">
     <h5>{{post.title}}</h5>
     <p>{{post.body}}</p>
   </div>
