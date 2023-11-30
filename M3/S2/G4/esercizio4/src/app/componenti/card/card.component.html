@@ -1,0 +1,9 @@
+<div class="card"
+[ngClass]="getClassObj()" >
+<div class="card-body" appEvidenzia colore="blue">
+    <h5 class="card-title">{{post.title}}</h5>
+    <p class="card-text">{{post.content|uppercase}}</p>
+    <p class="card-text">{{post.autore}}</p>
+    <ng-content></ng-content>
+  </div>
+</div>
