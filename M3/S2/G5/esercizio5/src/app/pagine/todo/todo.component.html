@@ -1,0 +1,17 @@
+<div *ngIf="!todos.length" >
+  Recupero task....
+</div>
+
+
+<div *ngIf="todos.length" >
+<input type="text"[(ngModel)]="newTodo.title">
+<button (click)="add() ">add</button>
+<ul   >
+  <li *ngFor="let t of todos">
+   <button ></button>
+    <p>{{t.title}}</p>
+    <button (click)=" remuve(t.id)">Elimina</button>
+    {{t.completed}}
+  </li>
+</ul>
+</div>

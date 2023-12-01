@@ -1,0 +1,14 @@
+<div *ngIf="!todos.length" >
+  Recupero task....
+</div>
+
+<div *ngIf="todos.length">
+
+<ul>
+  <li *ngFor="let t of todos">
+
+    <p>{{t.title}}</p>
+
+  </li>
+</ul>
+</div>
