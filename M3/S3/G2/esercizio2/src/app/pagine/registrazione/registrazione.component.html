@@ -1,0 +1,16 @@
+<form [formGroup]="form">
+  <input type="text" placeholder="inserisci nome" name="nome"   ><br>
+  <input type="text" placeholder="inserisci cognome" name="cognome"><br>
+  <input type="password" placeholder="inserisci password" name="password"><br>
+  <input type="password" placeholder="conferma password" name="conferma"><br>
+
+    <select  name="genere" id="genere" >
+     <option value="genere">genere</option>
+    <option *ngFor="let g of generi">{{g}}</option>
+    </select><br>
+
+  <input type="url" name="url" placeholder="inserisci foto"><br>
+  <textarea name="textarea" id="" cols="30" rows="10"></textarea><br>
+  <input type="text" placeholder="username" name="username">
+  <button (click)="send()" class="btn btn-primary">Invia</button>
+</form>

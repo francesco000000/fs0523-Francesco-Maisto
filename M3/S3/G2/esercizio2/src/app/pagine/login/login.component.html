@@ -1,0 +1,12 @@
+<form >
+  <input  type="email" name="email" placeholder="la tua email" required [pattern]="emailRegEx" [(ngModel)]="formObj.email"> <br>
+  <input type="password" name="password" placeholder="nuova password" required [(ngModel)]="formObj.password"><br>
+  <button (click)="save()" class="btn btn-primary">Salva</button>
+</form>
+<div *ngIf="!visible">
+  <p>Registrazione completata!</p>
+</div>
+<div *ngIf="!complit">
+  <p>completa tutti i campi!</p>
+</div>
+
