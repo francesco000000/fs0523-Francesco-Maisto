@@ -1,0 +1,20 @@
+<div class="container-fluid bg-info">
+<div class=""><button class="btn btn-warning" (click)="ext()">Esci</button></div>
+<div class="container text-center">
+ <form class="form-controll" (ngSubmit)="onSubmit(form)" #form="ngForm" >
+  <input type="text"placeholder="nome città" ngModel name="nomeCitta">
+
+ </form>
+</div>
+<div class="container text-center ">
+  <h1>{{city?.city.name}}</h1>
+  <h2>{{city?.list[0].main.temp}}</h2>
+
+<div>
+
+  <img >
+</div>
+<h3>{{city?.list[0].weather[0].main}}</h3>
+<h4>{{city?.list[0].weather[0].description}}</h4>
+</div>
+

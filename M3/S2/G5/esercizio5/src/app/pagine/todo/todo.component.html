@@ -8,7 +8,7 @@
 <button (click)="add() ">add</button>
 <ul   >
   <li *ngFor="let t of todos">
-   <button ></button>
+   <button (click)></button>
     <p>{{t.title}}</p>
     <button (click)=" remuve(t.id)">Elimina</button>
     {{t.completed}}

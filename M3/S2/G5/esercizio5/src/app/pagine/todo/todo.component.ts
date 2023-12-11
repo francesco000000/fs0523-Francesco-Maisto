@@ -21,6 +21,7 @@ show:boolean=false
 ngOnInit(){
   this.todoSvc.getAll().then(todos => this.todos=todos.filter(t => !t.completed))
 
+
 }
 add(){
   this.loading=true
@@ -42,6 +43,14 @@ remuve(id:string|undefined){
 
     this.todos =  this.todos.filter(t => t.id != id);
 
+
+  })
+}
+completo(){
+  this.route.params.subscribe((params:any) => {
+
+    this.todoSvc.getById(params.id).then(res => this.todo = res)
+    .then(res => this.todo.completed=true)
 
   })
 }
